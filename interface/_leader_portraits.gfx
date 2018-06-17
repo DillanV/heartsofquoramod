@@ -20,8 +20,14 @@ spriteTypes = {
 		name = "GFX_Portrait_Quora_Kanwal_Anuvind"
 		texturefile = "gfx/leaders/QUO/Portrait_Quora_Kanwal_Anuvind.dds"		
 	}
-	
-	
+	spriteType = {
+		name = "GFX_Portrait_QUO_Murphy_Barrett"
+		texturefile = "gfx/leaders/QUO/Portrait_QUO_Murphy_Barrett.dds"		
+	}
+	spriteType = {
+		name = "GFX_Portrait_QUO_Ayman"
+		texturefile = "gfx/leaders/QUO/Portrait_QUO_Ayman.dds"		
+	}
 	
 	
 	### GER
