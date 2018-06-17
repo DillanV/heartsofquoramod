@@ -1,0 +1,129 @@
+﻿division_template = {
+	name = "Upvote Corps"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+
+
+units = {
+	division = {
+		#name = "1. Upvote Corps"
+		location = 1562
+		division_template = "Upvote Corps"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "2. Upvote Corps"
+		location = 9814
+		division_template = "Upvote Corps"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "3. Upvote Corps"
+		location = 9814
+		division_template = "Upvote Corps"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "4. Upvote Corps"
+		location = 9671
+		division_template = "Upvote Corps"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "5. Upvote Corps"
+		location = 9671
+		division_template = "Upvote Corps"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "6. Upvote Corps"
+		location = 9671
+		division_template = "Upvote Corps"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		#name = "7. Upvote Corps"
+		location = 9671
+		division_template = "Upvote Corps"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		#name = "8. Upvote Corps"
+		location = 9713
+		division_template = "Upvote Corps"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.2
+	}
+	navy = {					
+		name = "Quoran Navy"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "QUO Southern Cross" definition = battleship equipment = { battleship_1 = { amount = 1 owner = QUO } } }				
+		ship = { name = "QUO Liberty At Large" definition = battleship equipment = { battleship_1 = { amount = 1 owner = QUO  } } }				
+		ship = { name = "QUO The Educational Blog" definition = battleship equipment = { battleship_1 = { amount = 1 owner = QUO } } }
+		ship = { name = "QUO The War Elephant" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUO } } }		
+		ship = { name = "QUO SHAK" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUO } } }				
+		ship = { name = "QUO Duly Blocked" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUO } } }				
+		ship = { name = "QUO Bearing Arms" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUO } } }		
+		ship = { name = "QUO Troll Control Patrol" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUO } } }				
+		ship = { name = "QUO LODM" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUO } } }				
+		ship = { name = "QUO The War Donkey" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUO } } }			
+	}	
+}
+
+air_wings = {
+	764 = {
+		# Fighter
+		# CAS
+		fighter_equipment_0 = {
+			owner = "QUO" 
+			amount = 320
+		}
+		# 17th Attack Group 
+		CAS_equipment_1 = {
+			owner = "QUO" 
+			amount = 100
+		}
+	}
+	378 = {
+		# Fighter
+		# CAS
+		fighter_equipment_0 = {
+			owner = "QUO" 
+			amount = 200
+		}
+		# 17th Attack Group 
+		CAS_equipment_1 = {
+			owner = "QUO" 
+			amount = 60
+		}
+	}
+}

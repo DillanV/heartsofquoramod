@@ -466,7 +466,7 @@ units = {
 
 
 	##### NAVAL UNITS #####
-	### PACIFIC FLEET -- San Diego
+	### PACIFIC FLEET -- Pearl Harbor
 	navy = {					
 		name = "Battleship Division 1"				
 		base = 4180
@@ -900,7 +900,7 @@ units = {
 		
 air_wings = {
 	### 1 USAAF Wing -- Los Angeles
-	378 = {
+	386 = {
 		# 7th Bombardment Group 
 		# 19th Bombardment Group 
 		tac_bomber_equipment_0 = {
@@ -990,7 +990,7 @@ air_wings = {
 		}
 	}
 	### USN Pacific Naval Patrol Division -- San Diego
-	378 = { 
+	386 = { 
 		# Naval Patrol Wing 1 
 		# Naval Patrol Wing 2 
 		nav_bomber_equipment_1 =  {
