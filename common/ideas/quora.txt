@@ -1,0 +1,65 @@
+ideas = {
+
+	country = {
+
+		quo_bnbr = {
+			
+			allowed = {
+				original_tag = QUO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+			modifier = {
+				political_power_gain = 0.5 
+				drift_defence_factor = 0.5
+				MONTHLY_POPULATION = -0.25
+				stability_factor = -0.10 
+			}
+		}
+		quo_celebrityculture = {
+			
+			allowed = {
+				original_tag = QUO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = -0.10 
+			}
+		}
+		quo_conservatism = {
+			
+			allowed = {
+				original_tag = QUO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_spy_political
+			modifier = { 
+				conscription = 0.015 
+				democratic_drift = 0.05
+			}
+		}
+	}
+}

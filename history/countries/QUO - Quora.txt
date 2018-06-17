@@ -1,0 +1,126 @@
+﻿capital = 378
+
+oob = "QUO_1936"
+
+set_research_slots = 4
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	transport = 1
+	superior_firepower = 1
+	base_strike = 1
+
+}
+
+set_convoys = 400
+
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 88
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		democratic = {
+			popularity = 22
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	limited_conscription
+	quo_bnbr
+	quo_celebrityculture
+	quo_conservatism
+}
+
+
+
+create_country_leader = {
+	name = "Adam D'Angelo"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_Quora_Adam_DAngelo.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Führer Kanwal Anuvind"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "Portrait_Quora_Kanwal_Anuvind.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Adam von Hohenzollern"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "Portrait_Quora_Adam_von_Hohenzollern.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Adam D'Stalino"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Portrait_Quora_Adam_DStalino.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Jon Davis"
+	picture = "Portrait_USA_George_S_Patton.dds"
+	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
+	skill = 5
+
+	attack_skill = 7 
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}

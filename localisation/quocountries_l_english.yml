@@ -1,0 +1,13 @@
+﻿l_english:
+ QUO_fascism:0 "Quoran Reich"
+ QUO_fascism_DEF:0 "the Quoran Reich"
+ QUO_democratic:0 "Quoran Republic"
+ QUO_democratic_DEF:0 "the Quoran Republic"
+ QUO_neutrality:1 "Quoran Empire"
+ QUO_neutrality_DEF:1 "the Quoran Empire"
+ QUO_communism:0 "Quora"
+ QUO_communism_DEF:0 "Quora"
+ QUO_fascism_ADJ:0 "Quoran"
+ QUO_democratic_ADJ:0 "Quoran"
+ QUO_neutrality_ADJ:0 "Quoran"
+ QUO_communism_ADJ:0 "Quoran"
