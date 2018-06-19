@@ -1,5 +1,74 @@
 ideas = {
+	political_advisor = {
+		QUO_matthew_bates = {
+			
+			allowed = {
+				original_tag = QUO
+			}
+			picture = QUO_matthew_bates
+			
+			traits = { democratic_reformer }
+		}
+		QUO_david_handzlik = {
+			
+			allowed = {
+				original_tag = QUO
+			}
+			picture = QUO_david_handzlik
+			
+			traits = { fascist_demagogue }
+		}
+		QUO_becky_butz = {
+			
+			allowed = {
+				original_tag = QUO
+			}
+			picture = QUO_becky_butz
+			
+			traits = { smooth_talking_charmer }
 
+		}
+		QUO_robert_puckett = {
+			
+			allowed = {
+				original_tag = QUO
+			}
+			picture = QUO_robert_puckett
+			
+			traits = { silent_workhorse }
+
+		}
+		QUO_axel_saries = {
+			
+			allowed = {
+				original_tag = QUO
+			}
+			picture = QUO_axel_saries
+			
+			traits = { communist_revolutionary }
+
+		}
+		QUO_griffin_wagner = {
+			
+			allowed = {
+				original_tag = QUO
+			}
+			picture = QUO_griffin_wagner
+			
+			traits = { influential_tecnocrat }
+
+		}
+		QUO_mukund_kumar = {
+			
+			allowed = {
+				original_tag = QUO
+			}
+			picture = QUO_mukund_kumar
+			
+			traits = { influential_tecnocrat }
+
+		}
+	}
 	country = {
 
 		quo_bnbr = {

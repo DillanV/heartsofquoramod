@@ -535,3 +535,12 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
+
+QUS = {
+color = rgb { 223 107 104 }
+color_ui = rgb { 223 107 104 }
+}
+QUS = {
+color = rgb { 223 107 104 }
+color_ui = rgb { 223 107 104 }
+}

@@ -112,7 +112,17 @@ create_country_leader = {
 		
 	}
 }
+create_corps_commander = {
+	name = "Jon Davis"
+	picture = "Portrait_QUO_Jon_Davis.dds"
+	traits = { armor_officer panzer_leader trait_reckless infantry_leader ambusher }
+	skill = 5
 
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
+}
 create_corps_commander = {
 	name = "Murphy Barrett"
 	picture = "Portrait_QUO_Murphy_Barrett.dds"

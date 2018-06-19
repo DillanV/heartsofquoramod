@@ -28,7 +28,10 @@ spriteTypes = {
 		name = "GFX_Portrait_QUO_Ayman"
 		texturefile = "gfx/leaders/QUO/Portrait_QUO_Ayman.dds"		
 	}
-	
+	spriteType = {
+		name = "GFX_Portrait_QUO_Jon_Davis"
+		texturefile = "gfx/leaders/QUO/Portrait_QUO_Jon_Davis.dds"		
+	}
 	
 	### GER
 	

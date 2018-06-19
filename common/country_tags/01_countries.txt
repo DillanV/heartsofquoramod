@@ -1,1 +1,2 @@
 QUO	= "countries/Quora.txt"
+QUS = "countries/Quoran America.txt"
