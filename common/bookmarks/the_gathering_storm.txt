@@ -25,14 +25,11 @@ bookmarks = {
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
+			USA_quoran_threat
+			USA_tori_lavale
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_strike_at_the_empire
-				USA_pearl_harbor_gambit
+
 			}
 		}
 		"ENG"={
@@ -52,7 +49,6 @@ bookmarks = {
 		"QUO"={
 			history = "QUO_GATHERING_STORM_DESC"
 			ideology = communism
-			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
 				quo_bnbr
 				quo_celebrityculture

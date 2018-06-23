@@ -45,7 +45,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Cavalry Division"  		# 1st Cavalry Division only
+	name = "Lavale Guard"  		# 1st Cavalry Division only
 
 	division_names_group = USA_CAV_01
 

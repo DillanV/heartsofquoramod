@@ -1,4 +1,4 @@
-﻿capital = 375
+﻿capital = 7552
 
 oob = "QUS_1936"
 
@@ -62,16 +62,16 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-        democratic = { popularity = 10 }
-        communism = { popularity = 90 }
-        fascism = { popularity = 0 }
-        neutrality = { popularity = 0 }
+        democratic = { popularity = 8 }
+        communism = { popularity = 80 }
+        fascism = { popularity = 5 }
+        neutrality = { popularity = 7 }
 
 	}
 	
 	ruling_party = communism
 	last_election = "1936.1.1"
-	election_frequency = 48
+	election_frequency = 12
 	elections_allowed = no
 }
 

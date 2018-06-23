@@ -1,4 +1,4 @@
-﻿name="(Hearts of Quora Alpha"
+﻿name="Hearts of Quora Alpha"
 path="mod/heartsofquoramod/"
 tags={
 	"Alternative History"
