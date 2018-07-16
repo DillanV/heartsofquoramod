@@ -295,7 +295,7 @@ units = {
 			name_order = 1
 		}
 		location = 12782
-		division_template = "Cavalry Division"
+		division_template = "Lavale Guard"
 		start_experience_factor = 0.3
 	}			
 					
