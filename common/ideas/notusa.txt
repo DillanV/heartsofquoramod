@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+
+			USA_quoran_threat = {
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			modifier = {
+				political_power_cost = -0.25
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+				drift_defence_factor = 0.2
+			}
+
+			}
+		
+
+			USA_tori_lavale = {
+			
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				political_power_cost = -0.05
+				consumer_goods_factor = 0.05
+			}
+
+			}
+		}
+	}

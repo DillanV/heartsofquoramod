@@ -43,7 +43,7 @@ set_technology = {
 	
 	#adding ministers
 	add_ideas = {
-		USA_lavale
+		USA_tori_lavale
 		USA_quoran_threat
 		USA_robert_taft
 		carl_spaatz
@@ -161,7 +161,7 @@ set_politics = {
 			popularity = 47
 		}
 
-		nonaligned = {
+		neutrality = {
 			popularity = 7
 		}
 	}
@@ -204,7 +204,7 @@ set_autonomy = {
 				popularity = 30
 			}
 
-			nonaligned = {
+			neutrality = {
 				popularity = 7
 			}
 		}
