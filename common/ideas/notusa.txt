@@ -21,6 +21,21 @@ ideas = {
 
 			}
 		
+			usa_democraticliberation = {
+			
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				democratic_drift = 0.1
+				consumer_goods_factor = 0.1
+			}
 
 			USA_tori_lavale = {
 			
