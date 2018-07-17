@@ -1,0 +1,142 @@
+USA_combat_democracy = {
+	USA_hold_patriotic_speech = {
+
+		icon = generic_civil_support
+		modifier = {
+			communism_drift = 0.05
+		}
+		
+		fire_only_once = no
+		
+		days_remove = 100
+		days_re_enable = 200
+		
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			has_country_leader = { ruling_only = yes name = "Tori Lavale" }
+		}
+
+		cost = 100
+		ai_will_do = {
+			factor = 8
+		}
+
+		complete_effect = {
+			add_stability = 0.05
+		}
+	}
+	USA_eliminate_south = {
+
+		icon = oppression
+		modifier = {
+			communism_drift = 0.025
+			stability_weekly = -0.01 
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 75
+		
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			has_country_leader = { ruling_only = yes name = "Tori Lavale" }
+		}
+
+		cost = 100
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_stability < 0.4
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+			add_popularity = {
+		ideology = democratic
+		popularity = -0.025
+			}
+		}
+	}
+	USA_eliminate_north = {
+
+		icon = oppression
+		modifier = {
+			communism_drift = 0.025
+			stability_weekly = -0.01 
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 75
+		
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			has_country_leader = { ruling_only = yes name = "Tori Lavale" }
+		}
+
+		cost = 100
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_stability < 0.4
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+			add_popularity = {
+		ideology = democratic
+		popularity = -0.025
+			}
+		}
+	}
+	USA_eliminate_west = {
+
+		icon = oppression
+		modifier = {
+			communism_drift = 0.025
+			stability_weekly = -0.01 
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 75
+		
+		allowed = {
+			original_tag = USA
+		}
+
+		available = {
+			has_country_leader = { ruling_only = yes name = "Tori Lavale" }
+		}
+
+		cost = 100
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_stability < 0.4
+			}
+		}
+
+		complete_effect = {
+			add_stability = -0.05
+			add_popularity = {
+		ideology = democratic
+		popularity = -0.025
+			}
+		}
+	}
+}
