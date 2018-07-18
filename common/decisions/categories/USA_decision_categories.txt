@@ -30,7 +30,11 @@ USA_aid_britain = {
 	}
 }
 USA_combat_democracy = {
+
 	icon = generic_propaganda
+	
+	picture = GFX_decision_cat_picture_chi_political_support
+	
 	allowed = {
 		original_tag = USA
 	}

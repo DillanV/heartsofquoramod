@@ -27,6 +27,7 @@ bookmarks = {
 			ideas = {
 			USA_quoran_threat
 			USA_tori_lavale
+			usa_democraticliberation
 			}
 			focuses = {
 

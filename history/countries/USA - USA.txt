@@ -178,6 +178,7 @@ add_ideas = {
 	disarmed_nation
 	free_trade
 	USA_quoran_threat
+	usa_democraticliberation
 }
 
 

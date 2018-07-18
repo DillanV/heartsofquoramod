@@ -21,7 +21,7 @@ ideas = {
 
 			}
 		
-			usa_democraticliberation = {
+		usa_democraticliberation = {
 			
 			
 			allowed = {
@@ -36,6 +36,7 @@ ideas = {
 				democratic_drift = 0.1
 				consumer_goods_factor = 0.1
 			}
+		}
 
 			USA_tori_lavale = {
 			
