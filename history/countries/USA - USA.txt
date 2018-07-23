@@ -179,6 +179,7 @@ add_ideas = {
 	free_trade
 	USA_quoran_threat
 	usa_democraticliberation
+	great_depression
 }
 
 
@@ -218,11 +219,11 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "Dwight D. Eisenhower"
+	name = "Dillan Vanner"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
 
 	}
@@ -275,7 +276,7 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "Dwight D. Eisenhower"
+	name = "Dillan Vanner"
 	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
 	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
 	skill = 5

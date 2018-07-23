@@ -40,5 +40,8 @@ USA_combat_democracy = {
 	}
 	visible = {
 			has_government = communism
+			NOT = {
+				has_country_flag = USA_secondcw
+			}
 		}
 }

@@ -3,7 +3,7 @@ USA_combat_democracy = {
 
 		icon = generic_civil_support
 		modifier = {
-			communism_drift = 0.05
+			communism_drift = 0.125
 		}
 		
 		fire_only_once = no

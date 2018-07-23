@@ -69,6 +69,142 @@ ideas = {
 
 		}
 	}
+	tank_manufacturer = {
+		designer = yes
+		
+		invento = {
+			
+			
+			allowed = {
+				original_tag = QUO
+			}			
+
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		the_war_elephant = {
+			
+			
+			allowed = {
+				original_tag = QUO
+			}			
+
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+		the_elephants_in_room = {
+			
+			
+			allowed = {
+				original_tag = QUO
+			}			
+
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { heavy_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		frocalc_factory = {
+			
+			
+			allowed = {
+				original_tag = QUO
+			}
+			
+
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		
+		lodm = {
+			
+			
+			allowed = {
+				original_tag = QUO
+			}
+			
+
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+	industrial_concern = {
+					
+		the_shak = {
+			
+			
+			allowed = {
+				original_tag = QUO
+			}
+			
+
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+			}
+		}
+		keeping_up_quorans = {
+			
+			
+			allowed = {
+				original_tag = QUO
+			}
+			
+
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+			
+			modifier = {
+			}
+		}
+	}
 	country = {
 
 		quo_bnbr = {

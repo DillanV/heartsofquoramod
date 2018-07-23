@@ -1,0 +1,81 @@
+﻿###########################
+# Tori USA Events
+###########################
+
+add_namespace = tori_usa
+
+# Coalition for American Democracy starts civil war
+country_event = {
+	id = tori_usa.1
+	title = tori_usa.1.t
+	desc = tori_usa.1.d
+	picture = GFX_report_event_usa_macarthur_speech
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		democratic > 0.4
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	option = { # ohshitohshitohshit
+		name = tori_usa.1.a
+		add_popularity = {
+		ideology = democratic
+		popularity = -0.35
+		}
+		start_civil_war = {
+			ideology = democratic
+			size = 0.5
+			only_own_territory = no
+			capital = 375
+			states = { 
+				375 374 372 371 370 367 368 365 366 364 363 373 369 362 376 377
+			}
+		}
+		set_country_flag = USA_secondcw
+	}
+}
+# Ask for help from Quora
+country_event = {
+	id = tori_usa.2
+	title = tori_usa.2.t
+	desc = tori_usa.2.d
+	picture = GFX_report_event_soviet_german_soldier_handshake
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		has_civil_war = yes
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	option = { # 
+		name = tori_usa.2.a
+		custom_effect_tooltip = usa_quora1_tt
+		#QUO = {
+		#		country_event = {
+		#		id = tori_usa.3
+		#		days = 2
+		#	}
+		#}
+	}
+	option = { # 
+		name = tori_usa.2.b
+		custom_effect_tooltip = usa_quora2_tt
+		#QUO = {
+		#		country_event = {
+		#		id = tori_usa.4
+		#		days = 2
+		#	}
+		#}
+	}
+}

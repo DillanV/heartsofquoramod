@@ -30,6 +30,35 @@ spriteTypes = {
 			name = "GFX_idea_QUO_mukund_kumar"
 			texturefile = "gfx/interface/ideas/QUO_mukund_kumar.dds"	
 		}	
+	SpriteType = {
+			name = "GFX_idea_frocalc_factory"
+			texturefile = "gfx/interface/ideas/frocalc_factory.dds"	
+		}	
+	SpriteType = {
+			name = "GFX_idea_invento"
+			texturefile = "gfx/interface/ideas/invento.dds"	
+		}
+	SpriteType = {
+			name = "GFX_idea_keeping_up_quorans"
+			texturefile = "gfx/interface/ideas/keeping_up_quorans.dds"	
+		}	
+	SpriteType = {
+			name = "GFX_idea_lodm"
+			texturefile = "gfx/interface/ideas/lodm.dds"	
+		}	
+	SpriteType = {
+			name = "GFX_idea_the_elephants_in_room"
+			texturefile = "gfx/interface/ideas/the_elephants_in_room.dds"	
+		}				
+	SpriteType = {
+			name = "GFX_idea_the_shak"
+			texturefile = "gfx/interface/ideas/the_shak.dds"	
+		}					
+	SpriteType = {
+			name = "GFX_idea_the_war_elephant"
+			texturefile = "gfx/interface/ideas/the_war_elephant.dds"	
+		}			
+		
 	
 	### Not Quora
 	SpriteType = {

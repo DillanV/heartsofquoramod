@@ -1,0 +1,10 @@
+﻿l_english:
+ tori_usa.1.t:0 "The Coalition Strikes!"
+ tori_usa.1.d:0 "We have decided to leave the Coalition for American Democracy ignored, and it has came back to bite us. The leader, Dillan Vanner, has issued a speech in Dallas, saying: \n\"For too long, the governnment in D.C. has disregarded the Constitution! Basic rights don't exist anymore, people are arrested without due process, and now, guns are being confiscated! Do you want to live in a future like this? Do you want to be slaves to a government? I declare the true US government here in Texas, and we shall fight for the future!\" \nHe has started rebellion in the South, and the revolution is well under way."
+ tori_usa.1.a:0 "They die where they stand!"
+ tori_usa.2.t:0 "An Offer from Quora"
+ tori_usa.2.d:0 "Today delegates from Quora have met in the Capital, hearing the news of civil war. As the situation is bleak, they have an offer. If we give them land and influence in our government, they will help us in the civil war and most likely win. However, they have also expressed that declining may have drawbacks too. We are faced with a decision, and there are only two decisions. What shall we do?"
+ tori_usa.2.a:0 "We don't really have a choice now, do we?"
+ tori_usa.2.b:0 "Who do they think they are? We can handle this by ourselves!"
+ usa_quora1_tt:0 "§RGoing down this path will lead to falling under Quoran influence.§"
+ usa_quora2_tt:0 "§RGoing down this path may lead to a course of action by the Quorans.§"
