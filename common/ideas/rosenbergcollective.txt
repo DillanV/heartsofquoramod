@@ -1,0 +1,66 @@
+ideas = {
+	country = {
+		RBC_artillery_only = {
+			
+			allowed = {
+				original_tag = RBC
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = generic_artillery_regiments
+		modifier = {	
+			experience_gain_army = -1 	
+			army_artillery_attack_factor = 0.33
+			army_artillery_defence_factor  = 0.33
+			army_org = 30
+			industrial_capacity_factory = 0.2
+				
+			}
+		}
+		RBC_australian_revanchism = {
+			
+			allowed = {
+				original_tag = RBC
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = RBC_australian_revanchism
+			
+			targeted_modifier = {
+				tag = AST
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
+			}
+		}
+		RBC_divided_class = {
+			
+			allowed = {
+				original_tag = RBC
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_purge
+			modifier = {
+				conscription_factor = -0.5
+				stability_factor = -0.2 
+			}
+		}
+	}
+}

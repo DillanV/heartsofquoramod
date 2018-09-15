@@ -57,6 +57,10 @@ spriteTypes = {
 	SpriteType = {
 			name = "GFX_idea_the_war_elephant"
 			texturefile = "gfx/interface/ideas/the_war_elephant.dds"	
+		}						
+	SpriteType = {
+			name = "GFX_idea_RBC_australian_revanchism"
+			texturefile = "gfx/interface/ideas/RBC_australian_revanchism.dds"	
 		}			
 		
 	

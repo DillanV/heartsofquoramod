@@ -33,18 +33,15 @@ bookmarks = {
 
 			}
 		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+		"RBC"={
+			history = "RBC_GATHERING_STORM_DESC"
+			ideology = communism
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
+				RBC_artillery_only
+				RBC_australian_revanchism
+				RBC_divided_class
 			}
 			focuses = {
-				tizard_mission_focus
-				ENG_war_with_germany
-				ENG_war_with_italy
 			}
 		}
 		"QUO"={

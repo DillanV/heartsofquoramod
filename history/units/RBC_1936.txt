@@ -1,0 +1,98 @@
+﻿division_template = {
+	name = "Artillery Divisions"
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Royal Guard"
+		location = 7069
+		division_template = "Artillery Divisions"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+		
+	}
+	division = {
+		#name = "2. Artillery Divisions"
+		location = 4135
+		division_template = "Artillery Divisions"
+		start_equipment_factor = 1
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "3. Artillery Divisions"
+		location = 9945
+		division_template = "Artillery Divisions"
+		start_equipment_factor = 1
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "4. Artillery Divisions"
+		location = 13071
+		division_template = "Artillery Divisions"
+		start_equipment_factor = 1
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "5. Artillery Divisions"
+		location = 12857
+		division_template = "Artillery Divisions"
+		start_equipment_factor = 1
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		#name = "6. Artillery Divisions"
+		location = 12100
+		division_template = "Artillery Divisions"
+		start_equipment_factor = 1
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		#name = "7. Artillery Divisions"
+		location = 7069
+		division_template = "Artillery Divisions"
+		start_equipment_factor = 1
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		#name = "Artillery Divisions"
+		location = 4135
+		division_template = "Artillery Divisions"
+		start_equipment_factor = 1
+		start_experience_factor = 0.2
+	}	
+	navy = {				
+		name = "Seized British Fleet"
+		base = 7069
+		location = 7069 # Casablanca
+		ship = { name = "HMS Colombo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RBC } } }
+		ship = { name = "HMS Capetown" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RBC } } }
+		ship = { name = "HMS Wryneck" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+		# 13th Destroyer Flotilla
+		ship = { name = "HMS Keppel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+		# Destroyer Division 25
+		ship = { name = "HMS Vidette" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+		ship = { name = "HMS Vortigern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+		ship = { name = "HMS Velox" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+		ship = { name = "HMS Watchman" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+		# Destroyer Division 26
+		ship = { name = "HMS Douglas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+		ship = { name = "HMS Active" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC  } } }	
+		ship = { name = "HMS Wishart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+		ship = { name = "HMS Wrestler" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RBC } } }	
+	}				
+}

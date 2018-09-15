@@ -540,7 +540,7 @@ QUS = {
 color = rgb { 223 107 104 }
 color_ui = rgb { 223 107 104 }
 }
-QUS = {
-color = rgb { 223 107 104 }
-color_ui = rgb { 223 107 104 }
+RBC = {
+color = rgb { 95 0 0 }
+color_ui = rgb { 95 0 0 }
 }
